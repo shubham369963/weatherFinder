@@ -24,6 +24,7 @@ locationbtn.addEventListener("click" , () =>{
 
 function onSuccess(position) {
     const {latitude , longitude} = position.coords;
+    const shubham = "3cc45f7586ffca82229a5b84561b8399";
     api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${shubham}`;
     fetchData();
 
