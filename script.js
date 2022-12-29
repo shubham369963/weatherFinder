@@ -36,7 +36,7 @@ function onError(err) {
 }
 
 
-function  requestApi(city) {
+function  requestApi(city ) {
     const shubham = "3cc45f7586ffca82229a5b84561b8399";
     api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${shubham}`;
     fetchData();
